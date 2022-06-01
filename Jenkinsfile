@@ -1,10 +1,10 @@
 node{
 
-   def tomcatWeb = 'C:\\apache-tomcat-8.5.79\\webapps'
-   def tomcatBin = 'C:\\apache-tomcat-8.5.79\\bin'
+   def tomcatWeb = 'D:\\apache-tomcat-9\\webapps'
+   def tomcatBin = 'D:\\apache-tomcat-9\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
-     git 'https://github.com/HariQedgeGithub/Qedge-SampleRepo.git'
+     git 'https://github.com/cubeiplKumar/stu-krishnarepo.git'
    }
    stage('Compile-Package-create-war-file'){
       // Get maven home path
